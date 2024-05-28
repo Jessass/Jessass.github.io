@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример с переменными admin и name</title>
+    <script>
+        function showAdmin() {
+            // Объявление переменных
+            let name = "Тима";
+            let admin;
+
+            // Копирование значения
+            admin = name;
+
+            // Вывод значения
+            document.getElementById('result').innerText = admin;
+        }
+    </script>
+</head>
+<body>
+    <h1>Пример с переменными admin и name</h1>
+    <button onclick="showAdmin()">Показать admin</button>
+    <p id="result"></p>
+<h2><button onclick="window.location.href = 'index.html';">Назад</button></h2>
+</body>
+</html>
